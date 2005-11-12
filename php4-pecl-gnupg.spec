@@ -12,7 +12,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	657658f34d53eaa7386aa2b825387e4a
-URL:		http://pecl.php.net/package/gpgme/
+URL:		http://pecl.php.net/package/gnupg/
 Patch0:		%{name}-tsrmls.patch
 BuildRequires:	php4-devel >= 3:4.3.0
 BuildRequires:	rpmbuild(macros) >= 1.254
