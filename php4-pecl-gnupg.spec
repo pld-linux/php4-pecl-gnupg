@@ -28,7 +28,7 @@ In PECL status of this extension is: %{_status}.
 
 %description -l pl
 To rozszerzenie dostarcza metody wspó³pracy z gnupg. Umo¿liwia to
-podpisywania, szyfrowania oraz weryfikacjê danych z poziomu PHP.
+podpisywanie, szyfrowanie oraz weryfikacjê danych z poziomu PHP.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
