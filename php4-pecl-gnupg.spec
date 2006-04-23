@@ -1,18 +1,19 @@
 %define		_modname	gnupg
-%define		_status		beta
+%define		_status		stable
 %define		_sysconfdir	/etc/php4
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 Summary:	%{_modname} - wrapper around the gpgme library
 Summary(pl):	%{_modname} - wrapper biblioteki gpgme
 Name:		php4-pecl-%{_modname}
-Version:	0.7.1
+Version:	1.1
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	726eace8f40095680e8edb8c79376096
+# Source0-md5:	6c7e2f287f9666366ca482ee1a81ad2e
 URL:		http://pecl.php.net/package/gnupg/
+BuildRequires:	gpgme-devel
 BuildRequires:	php4-devel >= 3:4.3.0
 BuildRequires:	rpmbuild(macros) >= 1.254
 %{?requires_php_extension}
