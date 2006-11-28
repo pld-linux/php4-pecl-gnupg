@@ -6,12 +6,12 @@
 Summary:	%{_modname} - wrapper around the gpgme library
 Summary(pl):	%{_modname} - wrapper biblioteki gpgme
 Name:		php4-pecl-%{_modname}
-Version:	1.1
+Version:	1.3
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	6c7e2f287f9666366ca482ee1a81ad2e
+# Source0-md5:	cab58faebb422fac2e4b95edfe2f99e6
 URL:		http://pecl.php.net/package/gnupg/
 BuildRequires:	gpgme-devel
 BuildRequires:	php4-devel >= 3:4.3.0
@@ -66,6 +66,6 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc %{_modname}-%{version}/{EXPERIMENTAL,README,examples}
+%doc %{_modname}-%{version}/{EXPERIMENTAL,README}
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/conf.d/%{_modname}.ini
 %attr(755,root,root) %{extensionsdir}/%{_modname}.so
