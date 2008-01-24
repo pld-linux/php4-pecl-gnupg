@@ -15,8 +15,8 @@ URL:		http://pecl.php.net/package/gnupg/
 BuildRequires:	gpgme-devel
 BuildRequires:	php4-devel >= 3:4.3.0
 BuildRequires:	rpmbuild(macros) >= 1.344
-%{?requires_php_extension}
 Requires:	php4-common >= 3:4.4.0-3
+%{?requires_php_extension}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
